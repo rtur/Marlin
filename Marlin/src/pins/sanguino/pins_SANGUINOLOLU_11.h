@@ -218,7 +218,7 @@
 
       #elif IS_MELZI
 
-        #define BEEPER_PIN                    27
+        #define BEEPER_PIN                    -1  // 27
         #define DOGLCD_CS                     28
 
       #else                                       // !MAKRPANEL
